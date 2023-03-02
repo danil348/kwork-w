@@ -818,3 +818,6 @@ body {
     height: auto;
   }
 }
+.right-bar__footer {
+  margin-top: 20px;
+}
