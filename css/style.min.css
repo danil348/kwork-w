@@ -216,6 +216,12 @@ body {
   align-items: center;
   padding: 13px;
 }
+.item .item__content._active {
+  background-color: #fc8d47;
+}
+.item .item__content._active * {
+  color: #fff !important;
+}
 @media (any-hover: hover) {
   .item .item__content:hover {
     background-color: #fc8d47;
@@ -825,4 +831,25 @@ body {
 .right-bar__main {
   position: relative;
   overflow-x: hidden;
+}
+
+.no_active {
+  transform: scale(0) !important;
+}
+
+.audiocontent button {
+  margin-right: auto;
+}
+.audiocontent .Chart {
+  position: relative;
+}
+.audiocontent .Chart .Chart__cur {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  height: 250%;
+  transform: translate(0, -50%);
+  width: 0%;
+  background: rgba(51, 99, 255, 0.1960784314);
+  border-right: 2px solid #3363ff;
 }
