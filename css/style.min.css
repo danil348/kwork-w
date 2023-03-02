@@ -469,6 +469,7 @@ body {
   font-size: 12px;
 }
 .main-item__text {
+  user-select: none;
   margin-top: 10px;
   line-height: 15px;
   border-radius: 10px;
@@ -522,6 +523,7 @@ body {
   margin-right: 30px;
 }
 .right-main__item.item-image .main-item__images {
+  user-select: none;
   max-width: 370px;
   display: flex;
   min-height: 165px;
@@ -544,13 +546,8 @@ body {
   background: #fff;
   border-radius: 10px;
   max-width: 370px;
-  margin-left: 75px;
+  margin-left: auto;
   color: #fc8d47;
-}
-@media (max-width: 1280px) {
-  .main-item__file {
-    margin-left: calc(0px + 75 * ((100vw - 320px) / 960));
-  }
 }
 .main-item__file a {
   color: #4d5e80;
