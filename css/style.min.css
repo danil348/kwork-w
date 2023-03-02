@@ -821,3 +821,8 @@ body {
 .right-bar__footer {
   margin-top: 20px;
 }
+
+.right-bar__main {
+  position: relative;
+  overflow-x: hidden;
+}
