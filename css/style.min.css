@@ -811,3 +811,10 @@ body {
 .right-main__item .main-item__images .main-item__image {
   margin-right: 0;
 }
+
+@media (max-width: 800px) {
+  .galerie .image-galerie {
+    width: 80vw !important;
+    height: auto;
+  }
+}
