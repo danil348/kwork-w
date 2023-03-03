@@ -693,7 +693,7 @@ body {
 	position: relative;
 }
 
-@media (max-width:870px) {
+@media (max-width: 800px) {
 	.dashboard {
 		position: relative;
 	}
@@ -731,7 +731,7 @@ body {
 	transition: 0.1s;
 	cursor: pointer;
 }
-@media (max-width: 870px) {
+@media (max-width: 800px) {
 	.icon-menu {
 		display: block;
 	}
@@ -937,27 +937,27 @@ body {
 
 .popup__buttons {
 	user-select: none; /*запрет на перенос текста*/
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 .popup__buttons button {
 	user-select: none; /*запрет на перенос текста*/
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 .main-item__file {
 	user-select: none; /*запрет на перенос текста*/
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 }
 
 .item {
 	padding: 13px 5px 13px 0px;
 }
-.Chart__cur img{
-	pointer-events: none; 
+.Chart__cur img {
+	pointer-events: none;
 	user-select: none;
 }
