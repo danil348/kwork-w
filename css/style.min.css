@@ -944,3 +944,7 @@ body {
 .main-item__file {
 	user-select: none;
 }
+
+.item {
+	padding: 13px 5px 13px 0px;
+}
