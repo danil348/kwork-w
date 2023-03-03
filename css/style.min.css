@@ -938,3 +938,6 @@ body {
 .popup__buttons {
 	user-select: none;
 }
+.popup__buttons button {
+	user-select: none;
+}
