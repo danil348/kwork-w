@@ -941,3 +941,6 @@ body {
 .popup__buttons button {
 	user-select: none;
 }
+.main-item__file {
+	user-select: none;
+}
