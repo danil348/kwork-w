@@ -861,7 +861,10 @@ body {
 .right-main__item.item-image .main-item__images {
 	min-height: 0px !important;
 }
-.audiocontent{
-  margin-bottom: 0;
-  padding: 30px;
+.audiocontent {
+	margin-bottom: 0;
+	padding: 16px;
+}
+.audiocontent .Chart .Chart__cur {
+	height: 208%;
 }
