@@ -693,7 +693,7 @@ body {
 	position: relative;
 }
 
-@media (max-width: 800px) {
+@media (max-width:870px) {
 	.dashboard {
 		position: relative;
 	}
@@ -731,7 +731,7 @@ body {
 	transition: 0.1s;
 	cursor: pointer;
 }
-@media (max-width: 800px) {
+@media (max-width: 870px) {
 	.icon-menu {
 		display: block;
 	}
