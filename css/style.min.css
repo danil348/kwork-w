@@ -1018,3 +1018,10 @@ body {
 	align-items: center;
 	justify-content: space-between;
 }
+
+
+@media (max-width: 480px){
+	  .dashboard__left-bar{
+			width: 100vw !important;
+		}
+}
