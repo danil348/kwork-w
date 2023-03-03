@@ -868,3 +868,6 @@ body {
 .audiocontent .Chart .Chart__cur {
 	height: 208%;
 }
+.main-item__text {
+	pointer-events: none;
+}
